@@ -104,7 +104,6 @@ export const TransactionTypeButton = styled(RadioGroup.Item)<TransactionTypeButt
     &[data-state='checked'] {
         color: ${props=>props.theme.white};
         background: ${props=>props.variant === 'income' ? props.theme["green-500"] : props.theme["red-500"]};
-
         svg {
             color: ${props=>props.theme.white};
         }
